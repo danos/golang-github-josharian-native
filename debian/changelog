@@ -1,0 +1,5 @@
+golang-github-josharian-native (0.0~git20200817.b6b71de-1) UNRELEASED; urgency=medium
+
+  * Initial release
+
+ -- Daniel Gollub <dgollub@att.com>  Tue, 10 Aug 2021 21:01:49 +0200

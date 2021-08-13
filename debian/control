@@ -1,0 +1,25 @@
+Source: golang-github-josharian-native
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Section: golang
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.5.0
+Homepage: https://github.com/josharian/native
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/josharian/native
+
+Package: golang-github-josharian-native-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: Easy to use native encoding/binary.ByteOrder (library)
+ Package native provides easy access to native byte order.
+ .
+ go get github.com/josharian/native
+ .
+ Usage: Use native.Endian where you need the native binary.ByteOrder.
+ .
+ Please think twice before using this package.  It can break program
+ portability.  Native byte order is usually not the right answer.
