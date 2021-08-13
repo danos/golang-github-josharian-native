@@ -3,7 +3,7 @@ Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
 Section: golang
 Testsuite: autopkgtest-pkg-go
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper (>= 12~),
                dh-golang,
                golang-any
 Standards-Version: 4.5.0
